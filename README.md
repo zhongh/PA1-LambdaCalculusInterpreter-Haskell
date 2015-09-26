@@ -6,7 +6,9 @@ Date: September 2015
 
 #### Features:
 The goal of this assignment is to write a lambda calculus interpreter in a functional programming language to reduce lambda calculus expressions in a callbyvalue (applicative order) manner.
+
 Your interpreter is expected to take each lambda calculus expression and repeatedly perform beta reduction until no longer possible (a value expression that can no longer be betareduced) and then eta reduction until no longer possible.
+
 Detailed description of the assignment can be found here: [http://www.cs.rpi.edu/academics/courses/fall15/proglang/pa1/pa1.html]
 
 
