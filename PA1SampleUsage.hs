@@ -108,5 +108,5 @@ main = do
     fileName <- getLine
     -- id' simply returns its input, so runProgram will result
     -- in printing each lambda expression twice. 
-    putStrLn "\nThe reduction results are:\n"
+    putStrLn "\nThe reduction results are:\n(Variable renaming will be in the form as x', x'', y', y'', etc.)\n"
     runProgram fileName id1

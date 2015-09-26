@@ -20,6 +20,8 @@ Detailed description of the assignment can be found here: [http://www.cs.rpi.edu
 5. Repeat step 4) to interpret more Lambda calculus input files;
 6. Enter ":q" to exit the program.
 
+### Variable renaming will be in the form as x', x'', y', y'', etc.
+
 #### Bugs: 
 [9/25/15] The eta reduction seems to have something wrong. I upload this version, but wishing to use another late day to get a perfect version tomorrow.
 [9/26/15] testcases: ((\y.\y.(y x) y) z))
