@@ -22,4 +22,8 @@ Detailed description of the assignment can be found here: [http://www.cs.rpi.edu
 
 #### Bugs: 
 [9/25/15] The eta reduction seems to have something wrong. I upload this version, but wishing to use another late day to get a perfect version tomorrow.
-[9/26/15] testcase: ((\y.\y.(y x) y) z)
+[9/26/15] testcases: ((\y.\y.(y x) y) z))
+                    (\z.\x.\x.z \x.\z.\x.x)
+
+## Warning:
+*The β-reduction is in applicative order thus there could be infinite loops!*
